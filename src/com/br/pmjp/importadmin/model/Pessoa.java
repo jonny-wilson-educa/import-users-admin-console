@@ -16,4 +16,14 @@ public class Pessoa {
 	private String telefone;
 	private String escola;
 
+	public Usuario convertToUsuario() {
+		// get first name
+		// get last name
+		// generate email
+		// generate password
+		// get org unit
+		
+		return new Usuario(nome, escola, dataNascimento, cpf, rg);
+	}
+
 }
